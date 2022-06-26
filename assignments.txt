@@ -1,0 +1,9 @@
+Banknotes
+
+please add the data directory to repository so I can run your notebooks. 
+
+
+Cinderella
+
+Please state what is you guess as to the number of clusters. 
+
