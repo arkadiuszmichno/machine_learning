@@ -16,6 +16,8 @@ jupyter:
 import numpy as np
 import scipy.stats as st
 import matplotlib.pyplot as plt
+import scrapbook as sb
+
 # %matplotlib inline
 plt.rcParams["figure.figsize"] = [12,8]
 plt.rcParams["animation.html"] = "jshtml"
@@ -73,6 +75,10 @@ scores, best = return_scores_and_best_fit()
 fig, ax = plt.subplots()
 ax.set(xlabel='Number of Clusters', ylabel='Score')
 ax.plot(n_range, scores)
+```
+
+```{python}
+sb.glue('Number of clusters guess', best, display=True)
 ```
 
 ```{python}
